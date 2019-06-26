@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		A302DCC322C3E51100CD0C2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A302DCC222C3E51100CD0C2B /* AppDelegate.swift */; };
-		A302DCC522C3E51100CD0C2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A302DCC422C3E51100CD0C2B /* ViewController.swift */; };
 		A302DCC822C3E51100CD0C2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A302DCC622C3E51100CD0C2B /* Main.storyboard */; };
 		A302DCCA22C3E51600CD0C2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A302DCC922C3E51600CD0C2B /* Assets.xcassets */; };
 		A302DCCD22C3E51600CD0C2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A302DCCB22C3E51600CD0C2B /* LaunchScreen.storyboard */; };
 		A302DCD522C3E84700CD0C2B /* HarryPotterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A302DCD422C3E84700CD0C2B /* HarryPotterModel.swift */; };
 		A302DCD822C3EA2500CD0C2B /* HarryPotterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A302DCD722C3EA2500CD0C2B /* HarryPotterController.swift */; };
+		A31AF72C22C417EB00F163C2 /* HarryPotterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31AF72B22C417EB00F163C2 /* HarryPotterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A302DCBF22C3E51100CD0C2B /* HarryPotter_API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarryPotter_API.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A302DCC222C3E51100CD0C2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A302DCC422C3E51100CD0C2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A302DCC722C3E51100CD0C2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A302DCC922C3E51600CD0C2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A302DCCC22C3E51600CD0C2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A302DCCE22C3E51600CD0C2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A302DCD422C3E84700CD0C2B /* HarryPotterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarryPotterModel.swift; sourceTree = "<group>"; };
 		A302DCD722C3EA2500CD0C2B /* HarryPotterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarryPotterController.swift; sourceTree = "<group>"; };
+		A31AF72B22C417EB00F163C2 /* HarryPotterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarryPotterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,13 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				A302DCC222C3E51100CD0C2B /* AppDelegate.swift */,
-				A302DCC422C3E51100CD0C2B /* ViewController.swift */,
 				A302DCC622C3E51100CD0C2B /* Main.storyboard */,
 				A302DCC922C3E51600CD0C2B /* Assets.xcassets */,
 				A302DCCB22C3E51600CD0C2B /* LaunchScreen.storyboard */,
 				A302DCCE22C3E51600CD0C2B /* Info.plist */,
 				A302DCD622C3E86500CD0C2B /* Model */,
 				A302DCD922C3EA3400CD0C2B /* Model Controller */,
+				A31AF72B22C417EB00F163C2 /* HarryPotterViewController.swift */,
 			);
 			path = HarryPotter_API;
 			sourceTree = "<group>";
@@ -157,8 +157,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A302DCC522C3E51100CD0C2B /* ViewController.swift in Sources */,
 				A302DCC322C3E51100CD0C2B /* AppDelegate.swift in Sources */,
+				A31AF72C22C417EB00F163C2 /* HarryPotterViewController.swift in Sources */,
 				A302DCD822C3EA2500CD0C2B /* HarryPotterController.swift in Sources */,
 				A302DCD522C3E84700CD0C2B /* HarryPotterModel.swift in Sources */,
 			);
