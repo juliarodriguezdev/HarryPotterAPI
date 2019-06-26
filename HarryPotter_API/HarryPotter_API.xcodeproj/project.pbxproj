@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A302DCC322C3E51100CD0C2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A302DCC222C3E51100CD0C2B /* AppDelegate.swift */; };
+		A302DCC522C3E51100CD0C2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A302DCC422C3E51100CD0C2B /* ViewController.swift */; };
+		A302DCC822C3E51100CD0C2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A302DCC622C3E51100CD0C2B /* Main.storyboard */; };
+		A302DCCA22C3E51600CD0C2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A302DCC922C3E51600CD0C2B /* Assets.xcassets */; };
+		A302DCCD22C3E51600CD0C2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A302DCCB22C3E51600CD0C2B /* LaunchScreen.storyboard */; };
+		A302DCD522C3E84700CD0C2B /* HarryPotterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A302DCD422C3E84700CD0C2B /* HarryPotterModel.swift */; };
+		A302DCD822C3EA2500CD0C2B /* HarryPotterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A302DCD722C3EA2500CD0C2B /* HarryPotterController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A302DCBF22C3E51100CD0C2B /* HarryPotter_API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarryPotter_API.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A302DCC222C3E51100CD0C2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A302DCC422C3E51100CD0C2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A302DCC722C3E51100CD0C2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A302DCC922C3E51600CD0C2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A302DCCC22C3E51600CD0C2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A302DCCE22C3E51600CD0C2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A302DCD422C3E84700CD0C2B /* HarryPotterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarryPotterModel.swift; sourceTree = "<group>"; };
+		A302DCD722C3EA2500CD0C2B /* HarryPotterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarryPotterController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A302DCBC22C3E51100CD0C2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A302DCB622C3E51100CD0C2B = {
+			isa = PBXGroup;
+			children = (
+				A302DCC122C3E51100CD0C2B /* HarryPotter_API */,
+				A302DCC022C3E51100CD0C2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A302DCC022C3E51100CD0C2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A302DCBF22C3E51100CD0C2B /* HarryPotter_API.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A302DCC122C3E51100CD0C2B /* HarryPotter_API */ = {
+			isa = PBXGroup;
+			children = (
+				A302DCC222C3E51100CD0C2B /* AppDelegate.swift */,
+				A302DCC422C3E51100CD0C2B /* ViewController.swift */,
+				A302DCC622C3E51100CD0C2B /* Main.storyboard */,
+				A302DCC922C3E51600CD0C2B /* Assets.xcassets */,
+				A302DCCB22C3E51600CD0C2B /* LaunchScreen.storyboard */,
+				A302DCCE22C3E51600CD0C2B /* Info.plist */,
+				A302DCD622C3E86500CD0C2B /* Model */,
+				A302DCD922C3EA3400CD0C2B /* Model Controller */,
+			);
+			path = HarryPotter_API;
+			sourceTree = "<group>";
+		};
+		A302DCD622C3E86500CD0C2B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A302DCD422C3E84700CD0C2B /* HarryPotterModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A302DCD922C3EA3400CD0C2B /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A302DCD722C3EA2500CD0C2B /* HarryPotterController.swift */,
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A302DCBE22C3E51100CD0C2B /* HarryPotter_API */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A302DCD122C3E51600CD0C2B /* Build configuration list for PBXNativeTarget "HarryPotter_API" */;
+			buildPhases = (
+				A302DCBB22C3E51100CD0C2B /* Sources */,
+				A302DCBC22C3E51100CD0C2B /* Frameworks */,
+				A302DCBD22C3E51100CD0C2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HarryPotter_API;
+			productName = HarryPotter_API;
+			productReference = A302DCBF22C3E51100CD0C2B /* HarryPotter_API.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A302DCB722C3E51100CD0C2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "julia rodriguez";
+				TargetAttributes = {
+					A302DCBE22C3E51100CD0C2B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A302DCBA22C3E51100CD0C2B /* Build configuration list for PBXProject "HarryPotter_API" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A302DCB622C3E51100CD0C2B;
+			productRefGroup = A302DCC022C3E51100CD0C2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A302DCBE22C3E51100CD0C2B /* HarryPotter_API */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A302DCBD22C3E51100CD0C2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A302DCCD22C3E51600CD0C2B /* LaunchScreen.storyboard in Resources */,
+				A302DCCA22C3E51600CD0C2B /* Assets.xcassets in Resources */,
+				A302DCC822C3E51100CD0C2B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A302DCBB22C3E51100CD0C2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A302DCC522C3E51100CD0C2B /* ViewController.swift in Sources */,
+				A302DCC322C3E51100CD0C2B /* AppDelegate.swift in Sources */,
+				A302DCD822C3EA2500CD0C2B /* HarryPotterController.swift in Sources */,
+				A302DCD522C3E84700CD0C2B /* HarryPotterModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A302DCC622C3E51100CD0C2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A302DCC722C3E51100CD0C2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A302DCCB22C3E51600CD0C2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A302DCCC22C3E51600CD0C2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A302DCCF22C3E51600CD0C2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A302DCD022C3E51600CD0C2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A302DCD222C3E51600CD0C2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 899TSM5Z6B;
+				INFOPLIST_FILE = HarryPotter_API/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HarryPotterAPI.HarryPotter-API";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A302DCD322C3E51600CD0C2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 899TSM5Z6B;
+				INFOPLIST_FILE = HarryPotter_API/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HarryPotterAPI.HarryPotter-API";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A302DCBA22C3E51100CD0C2B /* Build configuration list for PBXProject "HarryPotter_API" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A302DCCF22C3E51600CD0C2B /* Debug */,
+				A302DCD022C3E51600CD0C2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A302DCD122C3E51600CD0C2B /* Build configuration list for PBXNativeTarget "HarryPotter_API" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A302DCD222C3E51600CD0C2B /* Debug */,
+				A302DCD322C3E51600CD0C2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A302DCB722C3E51100CD0C2B /* Project object */;
+}
