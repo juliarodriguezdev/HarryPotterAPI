@@ -25,7 +25,7 @@
 		A302DCCE22C3E51600CD0C2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A302DCD422C3E84700CD0C2B /* HarryPotterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarryPotterModel.swift; sourceTree = "<group>"; };
 		A302DCD722C3EA2500CD0C2B /* HarryPotterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarryPotterController.swift; sourceTree = "<group>"; };
-		A31AF72B22C417EB00F163C2 /* HarryPotterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarryPotterViewController.swift; sourceTree = "<group>"; };
+		A31AF72B22C417EB00F163C2 /* HarryPotterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HarryPotterViewController.swift; path = ../HarryPotterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 				A302DCCE22C3E51600CD0C2B /* Info.plist */,
 				A302DCD622C3E86500CD0C2B /* Model */,
 				A302DCD922C3EA3400CD0C2B /* Model Controller */,
-				A31AF72B22C417EB00F163C2 /* HarryPotterViewController.swift */,
+				A31AF72D22C42B5500F163C2 /* New Group */,
 			);
 			path = HarryPotter_API;
 			sourceTree = "<group>";
@@ -84,6 +84,14 @@
 				A302DCD722C3EA2500CD0C2B /* HarryPotterController.swift */,
 			);
 			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+		A31AF72D22C42B5500F163C2 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				A31AF72B22C417EB00F163C2 /* HarryPotterViewController.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

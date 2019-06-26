@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Harry Potter View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HarryPotter_API" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HarryPotterViewController" customModule="HarryPotter_API" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -51,7 +51,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oOw-B0-aRN" userLabel="school">
                                 <rect key="frame" x="156" y="781" width="102" height="35"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="oU5-ET-pWO"/>
+                                    <constraint firstAttribute="height" constant="35" id="FbF-NO-esX"/>
                                 </constraints>
                                 <attributedString key="attributedText">
                                     <fragment content="Label">
@@ -65,55 +65,40 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Wq7-dN-Bpg">
-                                <rect key="frame" x="84" y="380" width="163.5" height="173"/>
+                                <rect key="frame" x="84" y="305" width="163.5" height="173"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ministry of Magic:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pnK-5r-MiI">
-                                        <rect key="frame" x="0.0" y="0.0" width="136" height="21"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="21" id="N45-b5-pdC"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="0.0" width="136" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order of the Phoenix:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aHb-ac-tBr">
-                                        <rect key="frame" x="0.0" y="31" width="163.5" height="18"/>
+                                        <rect key="frame" x="0.0" y="30.5" width="163.5" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dumbedores Army:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RYf-8U-c0q">
-                                        <rect key="frame" x="0.0" y="59" width="148" height="21"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="21" id="6VK-x3-7Xu"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="61" width="148" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Death Eater:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dIh-dK-EAf">
-                                        <rect key="frame" x="0.0" y="90" width="95" height="21"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="21" id="Lhm-Re-I0U"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="91.5" width="95" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blood Status: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UGh-vF-jzw">
-                                        <rect key="frame" x="0.0" y="121" width="107" height="21"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="21" id="z6k-wV-RxJ"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="122" width="107" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Species:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qnm-hn-dFE">
-                                        <rect key="frame" x="0.0" y="152" width="65.5" height="21"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="21" id="QcW-a2-77f"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="152.5" width="65.5" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -121,55 +106,40 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="WWh-9u-CUc">
-                                <rect key="frame" x="254.5" y="380" width="42" height="173"/>
+                                <rect key="frame" x="262.5" y="305" width="42" height="173"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vIr-wm-AtF" userLabel="(Ministry of Magic)">
-                                        <rect key="frame" x="0.0" y="0.0" width="42" height="21"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="21" id="Ddn-Mx-DOy"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="0.0" width="42" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5BI-B8-Xam" userLabel="(Order of the Phoenix)">
-                                        <rect key="frame" x="0.0" y="31" width="42" height="21"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="21" id="rfJ-eU-EhN"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="30.5" width="42" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z04-ke-16n" userLabel="(Dumbedores Army)">
-                                        <rect key="frame" x="0.0" y="62" width="42" height="21"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="21" id="Gbc-YY-CcH"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="61" width="42" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y1Q-VO-q4l" userLabel="(Death Eater)">
-                                        <rect key="frame" x="0.0" y="93" width="42" height="21"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="21" id="GZW-pQ-vYw"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="91.5" width="42" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yb3-WL-hNS" userLabel="(Blood Status)">
-                                        <rect key="frame" x="0.0" y="124" width="42" height="21"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="21" id="7BV-2x-BqS"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="122" width="42" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wln-4h-3i0" userLabel="(Species)">
-                                        <rect key="frame" x="0.0" y="155" width="42" height="18"/>
+                                        <rect key="frame" x="0.0" y="152.5" width="42" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -179,28 +149,38 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Wq7-dN-Bpg" firstAttribute="top" secondItem="WWh-9u-CUc" secondAttribute="top" id="1Vw-iG-6VW"/>
-                            <constraint firstItem="8SA-0u-YFC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="511-fM-IfI"/>
-                            <constraint firstItem="oOw-B0-aRN" firstAttribute="centerX" secondItem="Yb3-Fh-2uc" secondAttribute="centerX" id="6yv-Vk-jN0"/>
-                            <constraint firstItem="WWh-9u-CUc" firstAttribute="leading" secondItem="Wq7-dN-Bpg" secondAttribute="trailing" constant="7" id="KrG-G4-L8i"/>
-                            <constraint firstItem="Wq7-dN-Bpg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="84" id="MEw-2L-fTi"/>
-                            <constraint firstItem="Yb3-Fh-2uc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WLh-gq-FrD"/>
-                            <constraint firstItem="oOw-B0-aRN" firstAttribute="centerX" secondItem="vmf-tx-nYL" secondAttribute="centerX" id="Wpg-HP-ZjY"/>
-                            <constraint firstItem="Wq7-dN-Bpg" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="380" id="ZQP-8G-PcN"/>
-                            <constraint firstItem="8SA-0u-YFC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ZVd-E4-sId"/>
-                            <constraint firstItem="vmf-tx-nYL" firstAttribute="top" secondItem="oOw-B0-aRN" secondAttribute="bottom" constant="16" id="dL1-l2-03B"/>
-                            <constraint firstItem="Yb3-Fh-2uc" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="dSa-LO-xwv"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8SA-0u-YFC" secondAttribute="bottom" id="j1k-um-Pzw"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vmf-tx-nYL" secondAttribute="bottom" constant="6" id="lzE-76-2x0"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8SA-0u-YFC" secondAttribute="trailing" id="mC7-K1-dA2"/>
-                            <constraint firstItem="oOw-B0-aRN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="156" id="mPM-Lk-DXR"/>
-                            <constraint firstAttribute="bottom" secondItem="Wq7-dN-Bpg" secondAttribute="bottom" constant="343" id="nwV-jS-XBe"/>
-                            <constraint firstItem="Wq7-dN-Bpg" firstAttribute="top" secondItem="Yb3-Fh-2uc" secondAttribute="bottom" constant="280" id="q3Q-Gh-JkC"/>
-                            <constraint firstItem="Yb3-Fh-2uc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="t86-dm-Bdq"/>
-                            <constraint firstItem="WWh-9u-CUc" firstAttribute="centerY" secondItem="Wq7-dN-Bpg" secondAttribute="centerY" id="zfz-yG-WR2"/>
+                            <constraint firstItem="Wq7-dN-Bpg" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="305" id="1XU-yZ-0Zv"/>
+                            <constraint firstItem="oOw-B0-aRN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="156" id="1fK-VH-bSD"/>
+                            <constraint firstItem="8SA-0u-YFC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="3tw-GX-rqv"/>
+                            <constraint firstItem="Yb3-Fh-2uc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="6aq-oC-V3W"/>
+                            <constraint firstItem="vmf-tx-nYL" firstAttribute="top" secondItem="oOw-B0-aRN" secondAttribute="bottom" constant="16" id="6uI-3p-crT"/>
+                            <constraint firstItem="Wq7-dN-Bpg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="84" id="AA2-0t-8xj"/>
+                            <constraint firstItem="8SA-0u-YFC" firstAttribute="trailing" secondItem="Yb3-Fh-2uc" secondAttribute="trailing" id="FsH-b7-JG4"/>
+                            <constraint firstItem="Yb3-Fh-2uc" firstAttribute="centerX" secondItem="oOw-B0-aRN" secondAttribute="centerX" id="LlB-eD-rge"/>
+                            <constraint firstItem="Wq7-dN-Bpg" firstAttribute="top" secondItem="WWh-9u-CUc" secondAttribute="top" id="Thr-au-oIK"/>
+                            <constraint firstAttribute="trailing" secondItem="Yb3-Fh-2uc" secondAttribute="trailing" id="VOf-QV-qoG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vmf-tx-nYL" secondAttribute="bottom" constant="6" id="a0n-c3-5QP"/>
+                            <constraint firstItem="8SA-0u-YFC" firstAttribute="leading" secondItem="Yb3-Fh-2uc" secondAttribute="leading" id="awa-Ug-Cgz"/>
+                            <constraint firstItem="8SA-0u-YFC" firstAttribute="top" secondItem="Yb3-Fh-2uc" secondAttribute="top" id="bB5-6i-Za6"/>
+                            <constraint firstItem="oOw-B0-aRN" firstAttribute="centerX" secondItem="vmf-tx-nYL" secondAttribute="centerX" id="cBC-wt-dJV"/>
+                            <constraint firstItem="8SA-0u-YFC" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="fbn-Uc-vYg"/>
+                            <constraint firstItem="WWh-9u-CUc" firstAttribute="leading" secondItem="Wq7-dN-Bpg" secondAttribute="trailing" constant="15" id="xW4-hc-AnX"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="bloodStatusText" destination="Yb3-WL-hNS" id="TFK-i8-LrJ"/>
+                        <outlet property="deathEaterText" destination="y1Q-VO-q4l" id="mT4-IR-bCy"/>
+                        <outlet property="dumbedoresArmyText" destination="z04-ke-16n" id="vsZ-mm-upX"/>
+                        <outlet property="houseText" destination="gsR-pp-GQ4" id="eOR-gq-a3c"/>
+                        <outlet property="ministryOfMagicText" destination="vIr-wm-AtF" id="TZe-WL-HSO"/>
+                        <outlet property="nameText" destination="v4R-rp-8cn" id="fsF-Xl-YnL"/>
+                        <outlet property="orderOfPhoenixText" destination="5BI-B8-Xam" id="uuc-d4-IfE"/>
+                        <outlet property="roleText" destination="9LD-Xh-49H" id="deg-3d-vho"/>
+                        <outlet property="schoolText" destination="oOw-B0-aRN" id="UNE-Aw-C5l"/>
+                        <outlet property="searchBar" destination="Yb3-Fh-2uc" id="y3p-I1-8sG"/>
+                        <outlet property="speciesText" destination="Wln-4h-3i0" id="vxw-nd-Mtz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

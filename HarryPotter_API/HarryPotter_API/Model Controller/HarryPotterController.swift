@@ -40,8 +40,8 @@ class HarryPotterController {
                 // decode the data
                 do {
                     // Handle the data
-                    let character = try JSONDecoder().decode(TopLevelDict.self, from: data)
-                    completion(character)
+                    let character = try JSONDecoder().decode([TopLevelDict].self, from: data)
+                    completion(character.first)
                 } catch {
                     print("Error Fetching Character!")
                     completion(nil);return
